@@ -40,7 +40,7 @@ router.get('/auth/callback', async (req: Request, res: Response) => {
         user.type = GIT;
         const { login } = user;
         await database.insertData(USER_COLLECTION_NAME, { $set: user}, {login, type: GIT});
-        res.redirect(`/git/${login}`);
+        res.redirect(`/github/${login}`);
     }catch(err){
         logger.error('Error', err);
     }
