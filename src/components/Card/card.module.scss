@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 48%;
+
+    > a{
+        text-decoration: none;
+        > p{
+            font-family: monospace;
+            color: #000;
+            text-transform: capitalize;
+            font-size: 1.6rem;
+            text-align: center;
+            border-bottom: 1px solid #000;
+            padding: 0.7rem;
+            margin: 0;
+            font-weight: 400;
+        }
+        section {
+            padding: 1rem;
+            color: #000;
+        }
+    }
+    > a:visited{
+        color: #000;
+    }
+}

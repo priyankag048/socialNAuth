@@ -1,0 +1,22 @@
+.picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        height: 12rem;
+        width: 12rem;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #516a85;
+    }
+
+    a:hover {
+        color:#9336a3;
+    }
+}

@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8rem;
+    width: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.direction{
+    flex-direction: column;
+}
