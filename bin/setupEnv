@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "$(tput setaf 2)setting up Environment variables"
+export PORT=*
+export HOST=*
+export DB_URL=*
+export DB_NAME=*
+export DB_TOKEN_COLLECTION_NAME=*
+export DB_USER_COLLECTION_NAME=*
+export GIT_CLIENT_ID=*
+export GIT_CLIENT_SECRET=*
+export GOOGLE_CLIENT_ID=*
+export GOOGLE_CLIENT_SECRET=*
+export FB_CLIENT_ID=*
+export FB_CLIENT_SECRET=*
+echo "$(tput setaf 2)success"
+echo "$(tput setaf 5) environment variable setup complete"
