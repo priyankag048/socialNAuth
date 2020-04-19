@@ -72,7 +72,7 @@ Local Setup
 
     - <b>next.js</b>
 
-        Go to [env.js](./env.js) and enter all environment variables. These environment variables are configured in `next.config.js`
+        Go to [next-env.js](./next-env.js) and enter all environment variables. These environment variables are configured in `next.config.js`
 
     These will set up your environment variables and we can access them using `process.env.*`
 
