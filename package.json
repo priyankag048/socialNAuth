@@ -12,7 +12,8 @@
     "build:next": "next build",
     "build": "yarn build:rm && yarn build:next && yarn build:server",
     "build:rm": "rm -rf dist && rm -rf .next",
-    "start": "yarn build && node dist/app.js",
+    "dev": "yarn build && node dist/app.js",
+    "start": "node dist/app.js",
     "test": "jest --coverage"
   },
   "dependencies": {

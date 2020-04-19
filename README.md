@@ -61,8 +61,6 @@ Local Setup
 
 4.  Set up Environment Variables 
 
-    - <b>server</b>
-
         Go to [setupEnv](/bin/setupEnv) and enter all environment variables.
 
         Execute the following command:
@@ -70,12 +68,8 @@ Local Setup
             source ./bin/setupEnv 
         ```
 
-    - <b>next.js</b>
-
-        Go to [next-env.js](./next-env.js) and enter all environment variables. These environment variables are configured in `next.config.js`
-
-    These will set up your environment variables and we can access them using `process.env.*`
+    This will set up your environment variables and we can access them using `process.env.*`
 
 6.  Execute `yarn` to install all dependencies
 
-Now we are all set to run the application. Execute `yarn start` to start the application.
+Now we are all set to run the application. Execute `yarn dev` to start the application.
